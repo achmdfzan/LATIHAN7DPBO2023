@@ -1,4 +1,4 @@
-# LP7DPBO2023
+# LP7C1DPBO2023
 
 > Saya Achmad Fauzam NIM 2108061 mengerjakan soal Latihan Praktikum 7
 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek
