@@ -179,7 +179,7 @@ public class Game extends Canvas implements Runnable
             Font newFont = oldFont.deriveFont(oldFont.getSize() * 1.3f);
             g.setFont(newFont);
             
-            g.setColor(Color.blue);
+            g.setColor(Color.white);
             g.drawString("Score : " + Integer.toString(score), 20, 30);
             
         }
@@ -231,6 +231,7 @@ public class Game extends Canvas implements Runnable
             if(Handler.isOverlapping(player, target))
             {
                 target.moveRandom();
+                this.score += 10;
             }
         }
     }

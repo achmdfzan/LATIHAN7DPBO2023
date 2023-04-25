@@ -121,8 +121,10 @@ public class Controller extends KeyAdapter implements KeyListener
             
             if (prevKey != key)
             {
-                game.setScore(game.getScore() + 1);
                 prevKey = key;
+                
+                int currentScore = game.getScore();
+                game.setScore(++currentScore);
             }
         }
     }
